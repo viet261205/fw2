@@ -5,19 +5,33 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md text-black">
       <br />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <br />
+      <div className="max-w-7l  px-4 sm:px-6 lg:px-8 flex justify-between items-center h-33" style={{ margin: "0-auto" }}>
         <br />
+
         <div className="w-auto flex justify-start items-center space-x-2">
-          <div className="max-w-[150px]">
+          <div className="max-w-[250px]">
             <img
               src="https://i.pinimg.com/736x/c7/c5/ee/c7c5ee9481e54ff75d26eb62e5d2e4d9.jpg"
               alt="Logo"
-              className="w-30 h-40 rounded-full object-cover"
+              className="w-100% rounded-full object-cover"
             />
           </div>
-        </div>
 
-        <h1 className="text-2xl font-bold flex-1 text-center">PetShop</h1>
+        </div>
+        <nav style={{ textAlign: "center" }} className="flex justify-center items-center text-3xl font-semibold py-3">
+          <br />
+          <a href="/about" className="px-10 font-bold font-sans transition-all duration-200" style={{ color: "pink" }}>     <b>Trang Chủ</b>
+          </a>
+          <a href="/about" className="px-10 font-bold font-sans transition-all duration-200" style={{ color: "pink" }}><b>Giới thiệu </b></a>
+          <a href="/about" className="px-10 font-bold font-sans transition-all duration-200" style={{ color: "pink" }}>
+            <b>Tin tức</b></a>
+          <a href="/about" className="px-10 font-bold font-sans transition-all duration-200" style={{ color: "pink" }}>
+            <b>Liên Hệ</b>
+          </a>
+
+
+        </nav>
 
         <div className="flex-1 flex justify-center items-center">
           <div className="relative w-full max-w-sm">
@@ -29,9 +43,8 @@ export default function Header() {
             <button className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-black">
               <Search className="h-5 w-5" />
             </button>
+
           </div>
-        </div>
-        <div className="flex-1 flex justify-end items-center space-x-4">
           <button className="hover:text-gray-400">
             <User className="h-10 w-10" />
           </button>
@@ -43,15 +56,6 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <nav style={{ textAlign: "center" }} className="flex justify-center items-center text-3xl font-semibold py-3">
-        <br />
-        <a href="/" className="px-10 hover:text-gray-500 transition-all duration-200 font-bold font-sans text-black">Trang chủ</a>
-        <a href="/menu" className="px-10 hover:text-gray-500 transition-all duration-200 font-bold font-sans">Giới thiệu</a>
-        <a href="/promotions" className="px-10 hover:text-gray-500 transition-all duration-200 font-bold font-sans">Tin tức</a>
-        <a href="/about" className="px-10 hover:text-gray-500 transition-all duration-200 font-bold font-sans">Liên Hệ</a>
-
-      </nav>
-
 
     </header>
   );
