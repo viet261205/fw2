@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.dog-banner {
+    height: 180px; /* Tăng chiều cao của hình cún */
+    object-fit: contain;
+    margin-bottom: -55px; /* Đẩy xuống để chân bé chạm thanh hồng */
+    position: relative;
+    z-index: 2;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.pink-bar {
+    height: 80px; /* Tăng chiều cao thanh hồng */
+    background-color: #f9a8d4; /* Màu hồng */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}

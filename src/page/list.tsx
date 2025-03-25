@@ -144,7 +144,7 @@ function List() {
                 <div>
               <ul className="navbar-nav me-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/"><b>Home</b></a>
+                  <a className="nav-link active" aria-current="page" href="/home"><b>Home</b></a>
                 </li>
               </ul>
                 </div>
