@@ -4,8 +4,7 @@ import { ShoppingCart, User, Search } from "lucide-react";
 export default function Header() {
   return (
     <header className="bg-white shadow-md text-black">
-      <br />
-      <br />
+     <br />
       <div className="max-w-7l  px-4 sm:px-6 lg:px-8 flex justify-between items-center h-33" style={{ margin: "0-auto" }}>
         <br />
 
@@ -34,6 +33,7 @@ export default function Header() {
         </nav>
 
         <div className="flex-1 flex justify-center items-center">
+          
           <div className="relative w-full max-w-sm">
             <input
               type="text"
