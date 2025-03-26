@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md text-black">
       <br />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <div className="w-3/4 mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
         <br />
         <div className="w-auto flex justify-start items-center space-x-2">
           <div className="max-w-[150px]">
@@ -20,6 +20,7 @@ export default function Header() {
         <h1 className="text-2xl font-bold flex-1 text-center">PetShop</h1>
 
         <div className="flex-1 flex justify-center items-center">
+          
           <div className="relative w-full max-w-sm">
             <input
               type="text"
